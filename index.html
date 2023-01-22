@@ -1,0 +1,80 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basketball Scoreboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    
+    <div class="main-container">
+        <h1 class="header">Basketball Scoreboard</h1>
+        <div class="container">
+        
+        <div  class="homeTeam">
+            <h3 class="homeTeamTitle">HOME</h3>
+            <div class="blackBox">
+                <div class="scoreCount" id="homeScore">0</div>
+            </div>
+            <div class="btnsHome">
+                <button class="addScore" onclick="addPointsHome()">+1</button>
+                <button class="addScore" onclick="addPointsHome2()">+2</button>
+                <button class="addScore" onclick="addPointsHome3()">+3</button>
+            </div>
+        </div>
+
+        <div class="middle-section">
+            <p id="timer">300</p>
+        <button class="newgame-button" onclick="newGame()">NEW GAME</button>
+       
+    </div>
+        <div  class="guestTeam">
+            <h3 class="homeTeamTitle">GUEST</h3>
+            <div class="blackBox">
+                <div class="scoreCount" id="guestScore">0</div>
+            </div>
+            <div class="btnsHome">
+                <button class="addScore" onclick="addPointsGuest()">+1</button>
+                <button class="addScore" onclick="addPointsGuest2()">+2</button>
+                <button class="addScore" onclick="addPointsGuest3()">+3</button>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+    
+
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</script>

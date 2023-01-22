@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-container {
+    border-color: wheat;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 500px;
+    background-color: rgb(2, 2, 104);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+    padding-top: 0;
+    width: 500px;
+    font-size: 30px;
+
+}
+
+.homeTeam {
+    font-size: 10px;
+    width: 140px;
+    height: 220px;
+    
+}
+
+.middle-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.newgame-button {
+    background-color: rgb(2, 2, 104);
+    color: wheat;
+    border-color: wheat;
+    width: 50;
+    height: 30px;
+    border-radius: 30px;
+}
+
+#timer {
+    font-size: 25px;
+}
+
+.guestTeam {
+    width: 140px;
+    height: 220px;
+}
+
+.homeTeamTitle {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+
+.blackBox {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-color: wheat;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.scoreCount {
+    font-size: 70px;
+}
+
+.btnsHome {
+    margin-top: 15px;
+}
+
+.addScore {
+    background-color: rgb(2, 2, 104);
+    color: wheat;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 6px;
+    border-color: wheat;
+    margin-right: 5px;
+    margin-left: 2px;
+
+}
